@@ -760,7 +760,7 @@ header::before {
 .call__img-hide._show{
     display: block;
 }
-@media (max-width:425px){
+@media (max-width:450px){
     ._hide {
         transform: translateX(130px);
     }
