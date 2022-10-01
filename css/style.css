@@ -694,7 +694,7 @@ header::before {
     position: fixed;
     display: flex;
     flex-direction: row-reverse;
-    width: 300px;
+    width: auto;
     text-transform: uppercase;
     z-index: 50;
     top:70%;
@@ -703,7 +703,6 @@ header::before {
 .call__body {
     display: flex;
     flex-direction: column;
-    z-index: auto;
 }
 .call__button {
     font-family: Circe;
