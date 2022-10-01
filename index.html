@@ -31,11 +31,11 @@
                 <nav class="nav__menu _container">
                     <a class="nav__logo _desktop" href="index.html"><img class="nav__logo-img" src="./img/logo-svg.svg" alt="logo"></a>
                     <ul class="nav__list">
-                        <li><a class="nav__link" href="#">Услуги</a></li>
-                        <li><a class="nav__link" href="#">Прайс</a></li>
-                        <li><a class="nav__link" href="#">Акции</a></li>
-                        <li><a class="nav__link" href="#">О нас</a></li>
-                        <li><a class="nav__link" href="#">Контакты</a></li>
+                        <li><a class="nav__link" href="#menu">Услуги</a></li>
+                        <li><a class="nav__link" href="#services">Прайс</a></li>
+                        <li><a class="nav__link" href="#stock">Акции</a></li>
+                        <li><a class="nav__link" href="#about">О нас</a></li>
+                        <li><a class="nav__link" href="#contact">Контакты</a></li>
                     </ul>
                 </nav>
             </div>
@@ -57,7 +57,20 @@
                     </div>
                 </div>
             </div>
-            <div class="page__menu menu">
+            <div class="page__call call">
+                <div class="call__body">
+                    <a href="#send" class="call__button">
+                        <img class="call__img-hide" src="./img/writing.svg" alt="">
+                        <p class="call__text">Записаться</p>
+                        <img src="./img/writing.svg" alt="">
+                    </a>
+                    <a class="call__hide">
+                        <p>свернуть</p>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+            <div class="page__menu menu" id="menu">
                 <div class="menu__container _container">
                     <div class="menu__title">
                         <h1>Сервис-меню</h1>
@@ -96,8 +109,8 @@
                     </a>
                 </div>
             </div>
-            <div class="page__sale sale ._container-full">
-                <img src="./img/bg-sale.png" alt="">
+            <div class="page__sale sale ._container-full" id="stock">
+                <img src="./img/bg-sale.png" alt="stock-banner">
                 <div class="sale__container">
                     <div class="sale__body">
                         <h3>акция</h3>
@@ -111,7 +124,7 @@
                     </div>
                 </div>
             </div>
-            <div class="services__header _container">
+            <div class="services__header _container" id="services">
                 <h1>Услуги</h1>
                 <span></span>
             </div>  
@@ -177,7 +190,7 @@
                 <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
                 <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
               </div>
-            <div class="about__container _container">
+            <div class="about__container _container" id="about">
                 <div class="about__header">
                     <h1>О салоне</h1>
                     <span></span>
@@ -215,7 +228,7 @@
                     </div>
                 </div>
             </div>
-            <div class="page__contacts-header contacts">
+            <div class="page__contacts-header contacts" id="contact">
                 <div class="contacts__header _container">
                     <h1>Контакты</h1>
                     <span></span>
@@ -252,7 +265,7 @@
                 </div>
             </div>
         </main>
-        <footer class="footer">
+        <footer class="footer" id="send">
             <div class="footer__container _container">
                 <div class="footer__left _desktop">
                     <img src="./img/footer-logo.svg" alt="">
@@ -300,8 +313,7 @@
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!--     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
- --><script src="./js/script.js"></script>
+    <script src="./js/script.js"></script>
     <script src="./js/slick.min.js"></script>
 </body>
 </html>
