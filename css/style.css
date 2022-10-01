@@ -761,12 +761,8 @@ header::before {
     display: block;
 }
 @media (max-width:425px){
-
     ._hide {
         transform: translateX(130px);
-    }
-    .call__button._hide {
-        padding: 10px 10px;
     }
 }
 
@@ -1059,7 +1055,7 @@ header::before {
         padding-bottom: 0px;
     }
 }
-@media (max-width:425px) {
+@media (max-width:450px) {
 
     .page__about-slider {
         margin-top: 100px;
