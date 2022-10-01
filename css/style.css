@@ -1058,8 +1058,7 @@ header::before {
 @media (max-width:450px) {
 
     .page__about-slider {
-        margin-top: 100px;
-        margin-bottom: 100px;
+        margin-top: 40px;
     }
     .about-slider__item img{
         height: 27vmax;
