@@ -278,24 +278,25 @@
                         <img class="footer__mobile-logo _mobile" src="./img/footer-logo.svg" alt="">
                     </div>
                     <h1>Свяжитесь с нами</h1>
-                    <form action="" class="footer__form">
+                    <form action="sender.php" method="post" class="footer__form">
+                        <input type="hidden" name="form" value="piter_style">
                         <div class="footer__row">
-                            <input type="text" placeholder="Имя">
-                            <input type="text" placeholder="Телефон">
+                            <input type="text" name="name" placeholder="Имя" maxlength="32">
+                            <input type="text" name="phone" placeholder="Телефон" maxlength="12">
                         </div>
-                        <input type="text" placeholder="Сообщение">
+                        <input type="text" name="message" placeholder="Сообщение" maxlength="100">
                         <div class="footer__row-two">
                             <p class="footer__text">Нажимая на кнопку "Отправить", Вы соглашаетесь на обработку Ваших персональных данных. Узнать больше - <a class="politic" href="#">Политика конфиденциальности</a></p>
-                            <a href="#" class="footer__form-submit" type="submit"><p>Отправить</p></a>
+                            <button class="footer__form-submit" type="submit"><p>Отправить</p></button>
                         </div>
                     </form>
                     <div class="footer__bottom-right">
                         <div class="footer__bottom-right-icons">
                             <p>Мы в соцсетях:</p>
                             <ul>
-                                <li><a href=""><img src="./img/vk-bottom.svg" alt="vk"></a></li>
-                                <li><a href=""><img src="./img/insta-bottom.svg" alt="instagramm"></a></li>
-                                <li><a href=""><img src="./img/youtube-bottom.svg" alt="youtube"></a></li>
+                                <li><a href="https://vk.com/club139803592" target="_blank"><img src="./img/vk-bottom.svg" alt="vk"></a></li>
+                                <li><a href="https://www.instagram.com/piterstyle.ru/" target="_blank"><img src="./img/insta-bottom.svg" alt="instagramm"></a></li>
+                                <li><a href="" target="_blank"><img src="./img/youtube-bottom.svg" alt="youtube"></a></li>
                             </ul>
                         </div>
                         <div class="footer__mark">

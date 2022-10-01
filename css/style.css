@@ -1230,6 +1230,7 @@ header::before {
     height: 40px;
     border-bottom: 1.8px solid var(--footer-coor);
     background-color: var(--footer-bg);
+    color: var(--footer-coor);
 }
 .footer__form input::placeholder {
     color: var(--footer-coor);
@@ -1256,6 +1257,7 @@ header::before {
 }
 .footer__form-submit {
     background-color: var(--button);
+    color: var(--footer-coor);
     padding: 13px 27px;
     display: flex;
     align-items: center;
